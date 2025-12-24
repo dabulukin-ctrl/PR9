@@ -3,7 +3,7 @@ name: Run Tests
 on: [push, pull_request]
 
 jobs:
-  buid:
+  test:
     runs-on: ubuntu-latest
     
     steps:
@@ -22,4 +22,5 @@ jobs:
 
     - name: Run tests
       run: pytest -v
+
 
